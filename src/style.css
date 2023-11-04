@@ -1,3 +1,24 @@
+:root {
+  --primary-color: #f6834f;
+}
 body {
-  font-family: , "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  margin: 0 !important;
+  padding: 0;
+}
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.mainHome {
+  display: flex;
+  width: 100%;
+  left: 0;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 250px 200px 250px 200px;
 }
