@@ -14,7 +14,7 @@ body {
   top: 0;
   left: 0;
 }
-.btn-primary {
+.btn-branding-primary {
   background-color: #f6834f;
   color: white;
   border-radius: 50px;
@@ -22,19 +22,19 @@ body {
   margin: 0px 10px 0px 10px;
 }
 
-.btn-secondary {
+.btn-branding-secondary {
   background-color: white;
   color: #f6834f;
   border-radius: 50px;
   transition: ease-in-out;
   border: 1px solid #f6834f;
 }
-.btn-primary:hover {
+.btn-branding-primary:hover {
   background-color: white;
   border: 1px solid #f6834f;
   color: #f6834f;
 }
-.btn-secondary:hover {
+.btn-branding-secondary:hover {
   background-color: #f6834f;
   color: white;
 }
