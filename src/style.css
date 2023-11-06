@@ -50,7 +50,8 @@ h1 {
   background-color: var(--secondary-color);
   color: white;
 }
-.homepage-content img {
+.stuffed-dates .banana-toast {
+  height: 156px;
 }
 @media (max-width: 600px) {
   h1 {
