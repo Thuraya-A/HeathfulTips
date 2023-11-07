@@ -5,6 +5,9 @@
 .text-decor-none {
   text-decoration: none;
 }
+.margin-0 {
+  margin: auto;
+}
 body {
   font-family: "Varela Round", sans-serif;
 }
@@ -62,6 +65,7 @@ h1 {
   width: auto;
   height: 50vh;
 }
+.contact-information button,
 .homepage-content button {
   display: block;
   background-color: var(--secondary-color);
@@ -73,11 +77,13 @@ h1 {
 
   transition: ease-in-out;
 }
+.contact-information button:hover,
 .homepage-content button:hover {
   background-color: white;
   color: var(--secondary-color);
   text-decoration: underline;
 }
+
 @media (max-width: 600px) {
   h1 {
     padding: 0px;
