@@ -2,7 +2,9 @@
   --primary-color: #fcf5ed;
   --secondary-color: #f1a661;
 }
-
+.text-decor-none {
+  text-decoration: none;
+}
 body {
   font-family: "Varela Round", sans-serif;
 }
@@ -50,8 +52,31 @@ h1 {
   background-color: var(--secondary-color);
   color: white;
 }
+
 .stuffed-dates .banana-toast {
   height: 156px;
+}
+
+.homepage-content img {
+  object-fit: cover;
+  width: auto;
+  height: 50vh;
+}
+.homepage-content button {
+  display: block;
+  background-color: var(--secondary-color);
+  color: white;
+
+  border: 1px solid var(--secondary-color);
+  border-radius: 40px;
+  padding: 10px 30px 10px 20px;
+
+  transition: ease-in-out;
+}
+.homepage-content button:hover {
+  background-color: white;
+  color: var(--secondary-color);
+  text-decoration: underline;
 }
 @media (max-width: 600px) {
   h1 {
