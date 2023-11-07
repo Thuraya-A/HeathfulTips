@@ -38,6 +38,7 @@ h1 {
   margin-bottom: 10px;
   transition: ease-in-out;
 }
+.contact-information button,
 .hero-secondary-btn {
   background-color: white;
   color: var(--secondary-color);
@@ -51,6 +52,7 @@ h1 {
   background-color: white;
   color: var(--secondary-color);
 }
+.contact-information button:hover,
 .hero-secondary-btn:hover {
   background-color: var(--secondary-color);
   color: white;
@@ -65,7 +67,7 @@ h1 {
   width: auto;
   height: 50vh;
 }
-.contact-information button,
+
 .homepage-content button {
   display: block;
   background-color: var(--secondary-color);
@@ -77,13 +79,19 @@ h1 {
 
   transition: ease-in-out;
 }
-.contact-information button:hover,
+
 .homepage-content button:hover {
   background-color: white;
   color: var(--secondary-color);
   text-decoration: underline;
 }
-
+.contact-information {
+  border: 1px solid var(--primary-color);
+  background-color: var(--primary-color);
+  padding: 20px;
+  margin: 30px;
+  border-radius: 10px;
+}
 @media (max-width: 600px) {
   h1 {
     padding: 0px;
