@@ -57,7 +57,7 @@ h1 {
   background-color: var(--secondary-color);
   color: white;
 }
-
+.breakfast-about img,
 .homepage-content img,
 .snacks-about img {
   object-fit: cover;
