@@ -26,6 +26,21 @@ h1 {
   top: 0;
   left: 0;
 }
+footer {
+  display: flex;
+  justify-content: center;
+}
+footer {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+footer div {
+  margin: 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
 
 .hero-primary-btn {
   background-color: var(--secondary-color);
@@ -89,20 +104,15 @@ h1 {
   margin: 30px;
   border-radius: 10px;
 }
-footer {
-  display: flex;
-  justify-content: center;
-}
-footer {
-  margin-top: 20px;
-  margin-bottom: 30px;
-}
-footer div {
-  margin: 10px;
-}
 
-footer a:hover {
-  text-decoration: underline;
+.head {
+  text-align: center;
+  background-color: var(--primary-color);
+  padding: 20px 0px;
+  margin-top: 30px;
+}
+.recipe-collecttion a {
+  font: "Nunito", sans-serif;
 }
 @media (max-width: 600px) {
   h1 {
