@@ -58,7 +58,8 @@ h1 {
   color: white;
 }
 
-.homepage-content img {
+.homepage-content img,
+.snacks-about img {
   object-fit: cover;
   width: auto;
   height: 50vh;
