@@ -15,11 +15,13 @@ h1 {
   font-family: "Roboto", sans-serif;
   padding-left: 120px;
 }
-
-.hero {
-  background-color: var(--primary-color);
-  padding: 200px 20px 160px 20px;
+h2 {
+  font-weight: 600;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
+
 .navbar {
   width: 100%;
   position: fixed;
@@ -72,6 +74,7 @@ footer a:hover {
   background-color: var(--secondary-color);
   color: white;
 }
+.lunch-and-dinner-about img,
 .breakfast-about img,
 .homepage-content img,
 .snacks-about img {
@@ -104,6 +107,10 @@ footer a:hover {
   margin: 30px;
   border-radius: 10px;
 }
+.hero {
+  background-color: var(--primary-color);
+  padding: 200px 20px 160px 20px;
+}
 
 .head {
   text-align: center;
@@ -111,8 +118,15 @@ footer a:hover {
   padding: 20px 0px;
   margin-top: 30px;
 }
-.recipe-collecttion a {
-  font: "Nunito", sans-serif;
+.recipe-collection a {
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  size: 28px;
+
+  text-decoration: none;
+}
+.recipe-collection a:hover {
+  text-decoration: underline;
 }
 @media (max-width: 600px) {
   h1 {
