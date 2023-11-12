@@ -131,6 +131,9 @@ footer a:hover {
 .snack-recipes {
   margin-top: 100px;
 }
+.snack-recipes img {
+  width: 450px;
+}
 ul {
   margin-top: 20px;
   padding: 0px;
