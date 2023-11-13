@@ -11,6 +11,7 @@
 .margin-100 {
   margin-top: 100px;
 }
+
 body {
   font-family: "Varela Round", sans-serif;
 }
@@ -40,8 +41,6 @@ h2 {
 footer {
   display: flex;
   justify-content: center;
-}
-footer {
   margin-top: 20px;
   margin-bottom: 30px;
 }
@@ -52,8 +51,7 @@ footer div {
 footer a:hover {
   text-decoration: underline;
 }
-
-.hero-primary-btn {
+.primary-btn {
   background-color: var(--secondary-color);
   color: white;
 
@@ -64,8 +62,11 @@ footer a:hover {
   margin-bottom: 10px;
   transition: ease-in-out;
 }
-.contact-information button,
-.hero-secondary-btn {
+.primary-btn:hover {
+  background-color: white;
+  color: var(--secondary-color);
+}
+.secondary-btn {
   background-color: white;
   color: var(--secondary-color);
 
@@ -74,15 +75,11 @@ footer a:hover {
   padding: 10px 30px;
   transition: ease-in-out;
 }
-.hero-primary-btn:hover {
-  background-color: white;
-  color: var(--secondary-color);
-}
-.contact-information button:hover,
-.hero-secondary-btn:hover {
+.secondary-btn:hover {
   background-color: var(--secondary-color);
   color: white;
 }
+
 .lunch-and-dinner-about img,
 .breakfast-about img,
 .homepage-content img,
@@ -92,23 +89,6 @@ footer a:hover {
   height: 40vh;
 }
 
-.homepage-content button {
-  display: block;
-  background-color: var(--secondary-color);
-  color: white;
-
-  border: 1px solid var(--secondary-color);
-  border-radius: 40px;
-  padding: 10px 30px 10px 20px;
-
-  transition: ease-in-out;
-}
-
-.homepage-content button:hover {
-  background-color: white;
-  color: var(--secondary-color);
-  text-decoration: underline;
-}
 .contact-information {
   border: 1px solid var(--primary-color);
   background-color: var(--primary-color);
