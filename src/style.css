@@ -27,7 +27,8 @@ h2 {
 .head {
   text-align: center;
   background-color: var(--primary-color);
-  padding: 20px 0px;
+  padding: 30px 0px;
+  margin-bottom: 50px;
 }
 .hero-head {
   padding-left: 120px;
@@ -42,7 +43,10 @@ footer {
   display: flex;
   justify-content: center;
   margin-top: 20px;
-  margin-bottom: 30px;
+
+  background-color: var(--primary-color);
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 footer div {
   margin: 10px;
@@ -51,6 +55,9 @@ footer div {
 footer a:hover,
 .recipe-collection a:hover {
   text-decoration: underline;
+}
+.background-white {
+  background-color: white;
 }
 .primary-btn {
   background-color: var(--secondary-color);
@@ -130,10 +137,12 @@ form {
 }
 .emailadress-input {
   width: 75%;
+  border: 1px solid var(--secondary-color);
 }
 .suggestion-input {
   width: 75%;
   height: 300px;
+  border: 1px solid var(--secondary-color);
 }
 @media (max-width: 600px) {
   h1 {
