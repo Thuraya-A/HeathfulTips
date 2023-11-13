@@ -149,8 +149,15 @@ hr {
   height: 0px;
   border-top: 2px solid var(--secondary-color);
 }
-.emailadreess-input {
-  width: 120px;
+form {
+  padding-left: 300px;
+}
+.emailadress-input {
+  width: 75%;
+}
+.suggestion-input {
+  width: 75%;
+  height: 300px;
 }
 @media (max-width: 600px) {
   h1 {
