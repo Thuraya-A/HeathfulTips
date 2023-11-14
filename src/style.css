@@ -42,6 +42,10 @@ h2 {
 .navbar-nav {
   margin-top: 2px;
 }
+nav .active {
+  color: var(--secondary-color);
+  font-weight: bolder;
+}
 footer {
   display: flex;
   justify-content: center;
